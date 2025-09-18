@@ -23,5 +23,5 @@ Add UniLogger to your `pubspec.yaml`:
 dependencies:
   unilogger:
     git:
-      url: https://github.com/yourusername/unilogger.git
+      url: https://github.com/Imran200216/UniLogger.git
       ref: main

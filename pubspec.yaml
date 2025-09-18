@@ -3,7 +3,8 @@ license: "MIT"
 name: unilogger
 description: "A unified logging package for Flutter and Dart projects. Supports console logging, Dio requests, HTTP requests, and GraphQL operations with pretty formatting and color output."
 version: 0.0.1
-
+homepage: https://github.com/Imran200216/UniLogger
+repository: https://github.com/Imran200216/UniLogger
 authors:
   - Imran B <imranbabuji162002@gmail.com>
 publish_to: "https://pub.dev"
