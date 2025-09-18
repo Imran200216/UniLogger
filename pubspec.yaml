@@ -1,0 +1,45 @@
+license: "MIT"
+
+name: unilogger
+description: "A unified logging package for Flutter and Dart projects. Supports console logging, Dio requests, HTTP requests, and GraphQL operations with pretty formatting and color output."
+version: 0.0.1
+
+authors:
+  - Imran B <imranbabuji162002@gmail.com>
+publish_to: "https://pub.dev"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP client for Dart
+  http: ^1.5.0
+
+  # GraphQL client for Flutter
+  graphql_flutter: ^5.2.1
+
+  # Dio HTTP client
+  dio: ^5.9.0
+
+  # Pretty logging for Dio
+  pretty_dio_logger: ^1.4.0
+
+  # General logger for console logging
+  logger: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# Flutter-specific configuration
+flutter:
+  uses-material-design: true
+
+# Optional assets for examples or documentation
+# assets:
+#   - assets/images/logo.png
